@@ -1,0 +1,10 @@
+{
+  "name": "front-js",
+  "version": "1.0.0",
+  "description": "Front em JS para conversões",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Douglas Silva",
+  "license": "ISC",
+  "devDependencies": {}
+}

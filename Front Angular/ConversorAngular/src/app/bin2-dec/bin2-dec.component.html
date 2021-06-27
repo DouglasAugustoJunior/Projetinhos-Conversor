@@ -1,0 +1,9 @@
+<form [formGroup]="form">
+    <div class="form-group">
+        <h1>Bin2Dec</h1>
+        <label for="valor">Digite o valor: </label>
+        <input id="valor" type="number" class="form-control mb-3" formControlName="valor">
+        <input *ngIf="convertido" disabled [(ngModel)]="convertido" class="form-control mb-3" [ngModelOptions]="{standalone: true}">
+        <input type="submit" class="btn btn-primary" (click)="converter()">
+    </div>
+</form>
