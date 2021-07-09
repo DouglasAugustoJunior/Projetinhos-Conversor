@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "description": "Front em JS para conversões",
   "main": "index.js",
-  "scripts": {},
+  "type": "module",
+  "scripts": {
+    "start": "live-server"
+  },
   "author": "Douglas Silva",
   "license": "ISC",
-  "devDependencies": {}
+  "devDependencies": {},
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
 }

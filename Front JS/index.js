@@ -1,5 +1,5 @@
 import { Bin2Dec } from "../Back NodeJS/convert.js"
-import  { testaConexao, bin2Dec } from "./services.js"
+import { testaConexao, bin2Dec, dec2bin, bin2hex } from "./services.js"
 var converter = document.querySelector("#converter") // Pega o botão Cadastrar no HTML
 
 if(!testaConexao()){
